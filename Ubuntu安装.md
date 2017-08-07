@@ -1,3 +1,26 @@
+# 目录
+[系统设置](#系统设置)
+
+[系统清理](#系统清理)
+
+[系统更新](#系统更新)
+
+[系统美化](#系统美化)
+
+[软件安装](#软件安装)
+
+ 1. VIM 
+ 2. Sublime-text-3
+ 3. Typora
+ 4. Bleachbit
+ 5. 为知笔记
+ 6. ss客户端
+ 7. LAMP开发框架
+ 8. JDK安装
+ 9. wps字体缺失
+ 10. easystroke手势软件
+ 11. node安装
+
 # 系统设置
 
 ```shell
@@ -147,7 +170,7 @@ touch /etc/apache2/sites-enabled/www.test.com#apache默认会加载/etc/apache2/
 #使用phpstorm
 sudo apt-get install php-cgi
 ```
-8. jdk安装
+8. JDK安装
 ```shell
 sudo mkdir /usr/lib/jvm 
 sudo tar -C /usr/lib/jvm -xzf jdk.tar.gz 
@@ -165,7 +188,7 @@ sudo mkfontscale
 sudo mkfontdir
 sudo fc-cache
 ```
-10. easystroke
+10. easystroke手势软件
 ```shell
 sudo apt-get install easystroke
 ```
