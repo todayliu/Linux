@@ -371,7 +371,7 @@ $ zip -r file1.zip file1 file2 dir1
 $ unzip file1.zip
 ```
 
-### RPM 包
+### RPM包
 ```shell
 # Fedora, Redhat及类似系统
 # 安装一个rpm包
@@ -428,7 +428,7 @@ $ rpm -ivh /usr/src/redhat/RPMS/`arch`/package.rpm
 $ rpmbuild –rebuild package_name.src.rpm
 ```
 
-### YUM 软件包升级器
+### YUM软件包升级器
 ```shell
 # Fedora, RedHat及类似系统 
 # 下载并安装一个rpm包
@@ -453,7 +453,7 @@ $ yum clean headers
 $ yum clean all
 ```
 
-### DEB 包 
+### DEB包 
 ```shell
 # Debian, Ubuntu 以及类似系统
 
@@ -475,7 +475,7 @@ $ dpkg –contents package.deb
 $ dpkg -S /bin/ping
 ```
 
-### APT 软件工具 
+### APT软件工具 
 ```shell
 # Debian, Ubuntu 以及类似系统
 # 安装/更新一个 deb 包
