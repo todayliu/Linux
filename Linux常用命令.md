@@ -66,7 +66,7 @@ $ cat /proc/cpuinfo
 # 显示中断 
 $ cat /proc/interrupts 
 # 校验内存使用 
-cat /proc/meminfo 
+$ cat /proc/meminfo 
 # 显示哪些swap被使用 
 $ cat /proc/swaps 
 # 显示内核的版本 
